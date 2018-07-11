@@ -1,5 +1,9 @@
 const mongoose = require('mongoose');
 
+
+// create mongoose schema
+
+
 var Product= mongoose.model('Product', {
     productname: {type: String},
     productassetid: {type: String},
@@ -7,13 +11,3 @@ var Product= mongoose.model('Product', {
     productmanufacturer: {type: String}
 });
 module.exports={Product:Product};
-
-
-/*
-name = productname
-position = productassetid
-office = productweight
-salary = productmanufacturer
-
-
-*/

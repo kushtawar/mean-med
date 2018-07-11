@@ -2,7 +2,7 @@ const express = require('express');
 var router = express.Router();
 var ObjectId = require('mongoose').Types.ObjectId;
 
-var { Product } = require('../models/product');
+var { Product } = require('../models/product.js');
 
 // => localhost:3000/products/
 router.get('/', (req, res) => {
