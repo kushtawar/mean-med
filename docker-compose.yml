@@ -10,5 +10,5 @@ services:
   express: #name of the second service
     build: medangularjs # specify the directory of the Dockerfile
     ports:
-      - "3000:3000" #specify ports forewarding
+      - "3000:3000" #specify ports forwarding
     
