@@ -11,4 +11,8 @@ services:
     build: medangularjs # specify the directory of the Dockerfile
     ports:
       - "3000:3000" #specify ports forwarding
+
+
+#Next Steps
+#Handle exit codes of containers
     
