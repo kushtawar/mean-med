@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 # Copy dependency definitions
 COPY package.json /usr/src/app
 
-# Install dependecies
+# Install dependeciesd
 RUN npm install -g nodemailer
 RUN npm install
 
