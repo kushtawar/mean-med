@@ -8,9 +8,9 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Copy dependency definitions
-COPY package.json /usr/src/app
+COPY pac_kage.json /usr/src/app
 
-# Install dependeciesd
+# Install dependecies
 RUN npm install -g nodemailer
 RUN npm install
 
